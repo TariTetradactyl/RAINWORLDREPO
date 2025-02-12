@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Rain World Repo - Design</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        /*I'm putting the specific styles in the HTML pages directly instead of the style.css*/
+        /*Is this kind of ridiculous? Well, sure. But considering I want the different pages to be different palettes, this is the option I've chosen.*/
+        body{
+            background-image: url(backgroundimg/braintree.gif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #6aa9a3;
+        }
+        .body-section{
+            background-color: #1e001e;
+        }
+        .link-section{
+            background-color: #342142;
+        }
+        .link-nav{
+            background-color: #1e001e ;
+            color: #6baaa4;
+        }
+        /* links */
+        a:link {
+            text-decoration: none;
+            color: #008149;
+        }
+        a:visited {
+            text-decoration: none;
+            color: #008149;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #2cab74;
+        }
+        a:active {
+            text-decoration: underline;
+            color: #008149;
+        }
+    </style>
+</head>
+<body>
+    <div class="body-section">
+        <br>
+        <div class="link-nav">
+            <a href="index.html">Back</a>
+        </div>
+            <br>
+        <div class="link-section" style="width: 35%;">
+            <div class="link-nav">
+                <a href="design/devtalk.html">DEVELOPER TALK</a>
+            </div>
+            <div class="link-nav">
+                <a href="design/narrative.html">NARRATIVE</a>
+            </div>
+        </div>
+            <div class="link-section" style="width: 35%; float: right;">
+                <div class="link-nav">
+                    <a href="design/gamedesign.html">GAME DESIGN</a>
+                    </div>
+                <div class="link-nav">
+                    <a href="design/misc.html">MISC</a>
+                </div>
+        </div>
+    </div>
+</body>
+</html>

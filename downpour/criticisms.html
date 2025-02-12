@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>CRITCISMS & ISSUES</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <style>
+        /*I'm putting the specific styles in the HTML pages directly instead of the style.css*/
+        /*Is this kind of ridiculous? Well, sure. But considering I want the different pages to be different palettes, this is the option I've chosen.*/
+        body{
+            background-image: url(backgroundimg/tallesttower.jpg);
+            background-color: #040509;
+            background-size: cover;
+            background-repeat: repeat;
+            color: #ffffff;
+        }
+        .body-section{
+            background-color: #3e3f43;
+        }
+        .link-section{
+            background-color: #101115;
+        }
+        .link-nav{
+            background-color: #3e3f43 ;
+            color: #ffffff;
+        }
+        /* links */
+        a:link {
+            text-decoration: none;
+            color: #ff2826;
+        }
+        a:visited {
+            text-decoration: none;
+            color: #c40e2c;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #c40e2c;
+        }
+        a:active {
+            text-decoration: underline;
+            color: #c40e2c;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 15%; float: left; overflow: auto;">
+        <div class="link-nav" style="font-size: 24px;">
+            <a href="../index.html">INDEX</a>
+        </div>
+        <div class="link-nav" style="font-size: 24px;">
+            <a href="lore.html">LORE</a>
+        </div>
+        <div class="link-nav" style="font-size: 24px;">
+            <a href="slugcats.html">SLUGCATS</a>
+        </div>
+        <div class="link-nav" style="font-size: 24px;">
+            <a href="development.html">DEVELOPMENT</a>
+        </div>
+        <div class="link-nav" style="font-size: 24px;">
+            <a href="criticisms.html">CRITCISMS & ISSUES</a>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="body-section">
+        <div class="link-section" style="width: auto; float: none;">Inconsistencies and critque of Downpour in comparison to vanilla. (Please note it's not the opinion of the creator of RWR that DP is bad.)</div>
+                <div class="link-section" style="width: 35%; float: left;">
+                    <h2>Inconsistencies</h2>
+            <ul>
+                <li><a href="https://iteratorsex.tumblr.com/post/769899604779106304/so-either-pebbles-or-moon-are-just-fucking-lying">SOS is Not The Only Dead Iterator</a></li>
+                <li><a href="https://t00nyah.tumblr.com/post/771967259226914816/i-would-fucking-maintag-it-if-i-didnt-know-this">Echo Name Inconsistencies</a></li>
+            </ul>
+            <h3>From Sunfish on Discord:</h3>
+            <p>FP’s reading of the Bright Red Farm arrays pearl in Artificer’s campaign strays from base game’s definition of the big problem, as well as the reasoning behind iterators inability to ascend.</p>
+            <p><i style="color: #c40e2c;">"While your chains are made of your own natural urges, mine are a duty to my creators. My kind are built unable to ascend, as our minds are not our own. Composed of microbial life, machinery, and electronics."</i>
+                <p>Here, Iterators inability to ascend is attributed to iterators being partly inorganic, while in contrast, basegame established that:</p>
+                <ul>
+                    <li>They are purposed organisms</li>
+                    <p><i style="color: #c40e2c;">"Do you know what a purposed organism is? Actually you are talking to one right now!
+                    "Although, a small fraction of one. Nowadays I am mostly just my puppet. The bulk of me is in these walls but I am disconnected from those parts, to a degree where I am only vaguely aware of how bad their condition is."</i></p>
+                    <li>Their inability to ascend was established within base game as being a fundamental law written into their cells and the very makeup of their existence by their creators.</li>
+                    <p><i style="color: #c40e2c;">"It's an instruction on how to circumvent the self-destruction taboo.<br>
+                        The problem with breaking taboos is that the barriers are encoded into every cell of our organic parts. And there are other taboos strictly regulating our ability to rewrite our own genome."</i></p>
+                </ul>
+            <p>In basegame, inorganic matter was also considered a part of the cycles, and was included within the Benefactor’s definition of the Big Problem, which was to ascend the entire world itself.<br>
+                <sub style="color: #888888;">likely stems from misreading the info within the parentheses of the exterior base game Pearl to be talking about FP rather than the world.</sub></p>
+                <p><i style="color: #c40e2c;">"As an Iterator, he is also a Gift of Charity from Us to The World (unable to reach Enlightenment by itself - being composed mostly of Rock, Gas, dull witted Bugs and Microbes - and towards which We thus have Obligations)."</i></p>
+        </div>
+            <div class="link-section" style="width: 35%; float: right;">
+                <h3>From Randi Moth on Discord</h3>
+                <ul>
+                    <li>In vanilla, Hunter starts with some of the map already discovered even without any prior save data, showing that their path starts at LF_J01 beyond the fake toll. 
+                        <br>This is completely unused in Downpour campaigns. For example, Artificer doesn't actually know anything about Garbage Wastes despite supposedly living there earlier as shown in dreams.</li>
+                    <li>In GW_C02 and GW_C02_PAST, one Scavenger spawn <span style="color: #888888;">(accessible for each campaign that's intended to reach the corresponding room)</span> is defined as <span style="color: #ff2826;">5-Scavenger-{PreCycle,Seed:2837}</span>
+                    <br>As a seed <span style="color: #888888;">(aka ID)</span> is pre-defined, this means that it will share the exact same appearance and personality each time it respawns.
+                    <br>This, if taken literally, means this one specific Scavenger is able to actually respawn after death, breaking the understanding of death being permanent from an external perspective in the cycle, just for this one spawn only
+                <p><i style="color: #888888;">Extra note: Scavengers utilise a system of social memory in conjunction with reputation, with social memory being individual Scavengers' opinion of you in contrast to regional reputation. As it gets cleared out on each respawn, this 2837 Scavenger does not actually remember anything pre-death, therefore keeping the integrity of the cycle being intuitive rather than observable knowledge. Of course, unprovability of the cycle's nature is still contradicted by this</i></p></li>
+                </ul>
+                <h2>Criticisms</h2>
+        <ul>
+            <li><a href="https://iteratorsex.tumblr.com/post/773893165724958720/whats-wrong-with-the-line">DP’s Heavy Lean Into Iterators Being Gods</a></li>
+            <li><a href="https://iteratorsex.tumblr.com/post/773716203151704064/srry-i-just-want-to-entertain-this-idea-i-do-think">Pebbles Wouldn’t Care About Gourmand Being Fat</a></li>
+            <li><a href="https://iteratorsex.tumblr.com/post/773892719391227904">Void Worms Becomes Judges in Artificer</a></li>
+            <li><a href="https://twisting-roads.tumblr.com/post/764179123485671424/okay-coming-back-to-elaborate-some-more-on-this">Creature Placement in Saint</a></li>
+        </ul>
+        </div>
+    </div>
+</body>
+</html>

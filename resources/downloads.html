@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Downloads</title>
+    <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="../favicon.png">
+    <style>
+        /*I'm putting the specific styles in the HTML pages directly instead of the style.css*/
+        /*Is this kind of ridiculous? Well, sure. But considering I want the different pages to be different palettes, this is the option I've chosen.*/
+        body{
+            background-image: url(img/cloudsTexture.png);
+            background-color: #000000;
+            background-size: cover;
+            background-repeat: repeat;
+            color: #1dffa2;
+        }
+        .body-section{
+            background-color: #015777;
+        }
+        .link-section{
+            background-color: #001f2b;
+        }
+        .link-nav{
+            background-color: #001f2b ;
+            color: #1dffa2;
+        }
+        /* links */
+        a:link {
+            text-decoration: none;
+            color: #ef299e;
+        }
+        a:visited {
+            text-decoration: none;
+            color: #991361;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #991361;
+        }
+        a:active {
+            text-decoration: underline;
+            color: #991361;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="width: 15%; float: left; overflow: auto;">
+        <div class="link-nav" style="font-size: 24px;" style="font-size: 24px;">
+            <a href="../index.html">INDEX</a>
+        </div>
+        <div class="link-nav">
+            <a href="collections.html" style="font-size: 24px;">COLLECTIONS</a>
+        </div>
+        <div class="link-nav">
+            <a href="downloads.html" style="font-size: 24px;">DOWNLOADS</a>
+        </div>
+    </div>
+    <div class="body-section">
+        <div class="link-section" style="width: auto; float: none;">
+            Collections of RW related things linked outside of this site - creature IDs, screenshots, ect
+        </div>
+                <div class="link-section"  style="width: 35%; float: left;">
+            <ul>
+                <li><a href="https://github.com/cookiecaker/Rain-World-Sounds">SFX Download</a></li>
+            </ul>
+        </div>
+        <div class="link-section"  style="width: 35%; float: right;">
+            <ul>
+                <li><a href="https://github.com/laurapigeon/Rain-World-Images">All (VANILLA) Rain World Images</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

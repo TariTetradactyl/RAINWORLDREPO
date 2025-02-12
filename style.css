@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+  }
+  ul{
+    list-style-type: square;
+    text-align: left;
+  }
+  li{
+    margin-top: 12px;
+  }
+/*text containers*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    background-color: black;
+    margin:10%;
+    height:auto;
+    overflow-x: hidden;
+}
+.body-section {
+    text-align: center;
+    width: auto;
+    border: 5px solid;
+    height:auto;
+    box-sizing: border-box;
+    overflow:auto;
+  }
+.link-section{
+    overflow:auto;
+    float:left;
+    padding:5%;
+    margin: 20px;
+}
+.link-nav {
+    display: block;
+    border: none;
+    text-align: center;
+    font-size: 30px;
+    margin:5px;
+  }
